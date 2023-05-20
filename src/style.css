@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    background-color: rgb(83, 133, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 50px;
+    margin-bottom: 45px;
+}
+
+.tab {
+    width: 100px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.tab:hover {
+    color: rgb(83, 133, 241);
+    background-color: white;
+}
+
+#content {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: rgb(83, 133, 241); 
+    padding: 25px 50px;
+    border-radius: 20px;
+}
+
+/* Home -------------------------------------------------------------  */
+#home-title {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#home-img {
+    margin-bottom: 25px;
+}
+
+.description-container {
+    width: 600px;
+}
+
+.description-container h2 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: white;
+    font-size: 1.5rem;
+}

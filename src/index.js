@@ -1,1 +1,4 @@
-console.log("Hello friend")
+import './style.css'
+import initializePage from './pageLoad'
+
+initializePage();
